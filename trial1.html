@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <style media="screen">
+    body{
+      margin: 200px 300px;
+      display:flex;
+    }
+    .second{
+      transform: rotate(270deg);
+    }
+    body>div{
+      width:400px;
+      height:200px;
+      position:relative;
+    }
+    body>div>div{
+      height:100%;
+    }
+    body>div>div:nth-child(1){
+      background-image: linear-gradient(orange 20px 60px,white 43px 140px,green 2px);
+    }
+    body>div>div:nth-child(2){
+      height:64px;
+      width:60px;
+      border-radius: 50%;
+      background-color: blue;
+      position:absolute;
+      top:34%;
+      left:37%;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <div>
+  </div>
+  <div>
+  </div>
+</div>
+<div class="second">
+  <div>
+  </div>
+  <div>
+  </div>
+</div>
+</body>
+</html>
